@@ -1,0 +1,45 @@
+{
+    "title": "Sight++ Web_portal",
+    "name": "Team5 Sight++ Web_portal",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "Sight++ Website is a web_portal for Bootstrap.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "",
+    "bugs": {
+       	
+    },
+    "license": "MIT",
+    "author": "chenyao Li",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SightPlusPlus/SightPlusPlus_Web_portal.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.15.1",
+        "bootstrap": "4.5.3",
+        "jquery": "3.5.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.13",
+        "del": "6.0.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.3.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "2.0.0",
+        "gulp-sass": "4.1.0",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
