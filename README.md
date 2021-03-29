@@ -2,6 +2,7 @@
 Our main code can be found on Github at this link: https://github.com/SightPlusPlus. As this project is quite big, we had to divide the code into multiple repositories.
 
 
+
 # SightPlusPlus-Web_portal
 
 ## Main
@@ -11,6 +12,7 @@ The project itself is placed inside the other 3 repositories. So to run it, you 
 
 ## Reference
 The bootstrap template from [Start Bootstrap - Clean Blog](https://startbootstrap.com/theme/clean-blog/)
+
 
 
 # SightPlusPlus-Server
@@ -72,7 +74,7 @@ Within the JSON object add the attribute args:[ "" ] and add the arguments you r
 
 Finally: Either select Debug within the executable or set the item as Startup item and run from the top panel.
 
-### Option 2,
+### Option 2:
 To set the run arguments, right-click on the top-level CMake and select add build configuration, select default.
 
 within the JSON object add the attribute args:[ "" ] and add the arguments you required
@@ -109,6 +111,7 @@ Flags for running the system include:
 Connect the Realsense camera(s) and add the “realsense -outdoors” flags (for outdoors moving) or “realsense -indoors” flags (for indoors moving).
 
 
+
 # SightPlusPlus-Client
 After installing and successfully running the SightPluslus-Server, it’s time for the Client-side.
 
@@ -133,6 +136,8 @@ If you want to use the remote functionalities, run in the terminal (make sure yo
 
 That is it, now the Client should receive messages from the Server.
 
+
+
 # SightPlusPlus-App
 To use the app you can download the APK from here:
 https://liveuclac-my.sharepoint.com/:u:/g/personal/zcabvud_ucl_ac_uk/EQxxIyK-tgZPnFGgm_Zo7zIBs09yk71X4JQooh_0qJq0sg?e=9JUZe1
@@ -150,8 +155,3 @@ If you need to create a new APK, just type in the terminal (make sure you are in
 
 
 NOTE: The client and the app are using Firebase. The credentials should be changed.
-
-
-
-Thank you for your attention, Team 5.
-
